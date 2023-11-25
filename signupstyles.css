@@ -1,0 +1,76 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: url(https://img.freepik.com/free-photo/aerial-view-computer-laptop-wooden-table_53876-30613.jpg?w=2000&t=st=1699525411~exp=1699526011~hmac=5fc58ec64712272bb8e350e3bfae0746aa606b9ddef0fa57e9bab30e733e37c8) no-repeat center center fixed; /* Replace with your image path */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Signup container styling */
+.container {
+    width: 400px; /* Adjust the width as needed */
+    padding: 20px;
+    background-color: #ffffffa8;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.back-to-login {
+    margin-top: 15px;
+    color: #555;
+}
+
+.back-to-login a {
+    color: #4caf86;
+    text-decoration: none;
+}
+
+.back-to-login a:hover {
+    text-decoration: underline;
+}
